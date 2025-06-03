@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <!--
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Это ваш диалог"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btn_ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:text="OK" />
+        -->
+    <TextView
+        android:id="@+id/RSL_TXT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Сканирование успешно!"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/RSL_TXTV"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text=""
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/PRNT_BTN"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Печать" />
+
+    <Button
+        android:id="@+id/CNTN_BTN"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Продолжить" />
+
+</LinearLayout>
